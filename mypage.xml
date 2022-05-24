@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#69FF6F"
+    android:paddingHorizontal="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/round_corner"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마이페이지"
+            android:textSize="30dp"
+            android:drawableStart="@drawable/ic_baseline_account_circle_24"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/round_corner"
+        android:layout_marginVertical="20dp"
+
+        >
+
+       <ImageView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:src="@drawable/ic_baseline_person_24"
+
+           />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/round_corner"
+        >
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  보유 금액           "
+            android:textSize="30dp"
+            android:drawableStart="@drawable/ic_baseline_monetization_on_24"
+            android:textColor="@color/black"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/round_corner"
+        android:layout_marginVertical="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  구매 / 판매 이력"
+            android:textSize="30dp"
+            android:drawableStart="@drawable/ic_baseline_local_grocery_store_24"
+            android:textColor="@color/black"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_corner"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_miscellaneous_services_24"
+            android:text="  설정                  "
+            android:textColor="@color/black"
+            android:textSize="30dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
